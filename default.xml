@@ -15,7 +15,7 @@
   <default revision="refs/heads/cm-11.0"
            remote="github"
            sync-c="true"
-           sync-j="4" />
+           sync-j="32" />
 
   <project path="build" name="CyanogenMod/android_build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
